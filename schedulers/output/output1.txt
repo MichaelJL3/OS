@@ -1,0 +1,129 @@
+The original input was: 1 (0,1,5,1)
+The (sorted) input is: 1 (0,1,5,1)
+
+This detailed printout gives the state and remaining burst for each process
+
+before cycle: 0 unstarted 0
+before cycle: 1 running 1
+before cycle: 2 blocked 1
+before cycle: 3 running 1
+before cycle: 4 blocked 1
+before cycle: 5 running 1
+before cycle: 6 blocked 1
+before cycle: 7 running 1
+before cycle: 8 blocked 1
+before cycle: 9 running 1
+the scheduling algorithm used was first come first serve
+
+Process: 0
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 9
+	Turnaround time: 9
+	I/O time: 4
+	Waiting time: 0
+
+Summary Data:
+	Finishing time: 9
+	CPU Utilization: 0.555556
+	I/O Utilization: 0.444444
+	Throughput: 11.1111 processes per hundred cycles
+	Average turnaround time: 9
+	Average waiting time: 0
+
+======================================================
+The (sorted) input is: 1 (0,1,5,1)
+
+This detailed printout gives the state and remaining burst for each process
+
+before cycle: 0 unstarted 0
+before cycle: 1 running 1
+before cycle: 2 blocked 1
+before cycle: 3 running 1
+before cycle: 4 blocked 1
+before cycle: 5 running 1
+before cycle: 6 blocked 1
+before cycle: 7 running 1
+before cycle: 8 blocked 1
+before cycle: 9 running 1
+the scheduling algorithm used was round robbin
+
+Process: 0
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 9
+	Turnaround time: 9
+	I/O time: 4
+	Waiting time: 0
+
+Summary Data:
+	Finishing time: 9
+	CPU Utilization: 0.555556
+	I/O Utilization: 0.444444
+	Throughput: 11.1111 processes per hundred cycles
+	Average turnaround time: 9
+	Average waiting time: 0
+
+======================================================
+The (sorted) input is: 1 (0,1,5,1)
+
+This detailed printout gives the state and remaining burst for each process
+
+before cycle: 0 unstarted 0
+before cycle: 1 running 1
+before cycle: 2 blocked 1
+before cycle: 3 running 1
+before cycle: 4 blocked 1
+before cycle: 5 running 1
+before cycle: 6 blocked 1
+before cycle: 7 running 1
+before cycle: 8 blocked 1
+before cycle: 9 running 1
+the scheduling algorithm used was last come first serve
+
+Process: 0
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 9
+	Turnaround time: 9
+	I/O time: 4
+	Waiting time: 0
+
+Summary Data:
+	Finishing time: 9
+	CPU Utilization: 0.555556
+	I/O Utilization: 0.444444
+	Throughput: 11.1111 processes per hundred cycles
+	Average turnaround time: 9
+	Average waiting time: 0
+
+======================================================
+The (sorted) input is: 1 (0,1,5,1)
+
+This detailed printout gives the state and remaining burst for each process
+
+before cycle: 0 unstarted 0
+before cycle: 1 running 1
+before cycle: 2 blocked 1
+before cycle: 3 running 1
+before cycle: 4 blocked 1
+before cycle: 5 running 1
+before cycle: 6 blocked 1
+before cycle: 7 running 1
+before cycle: 8 blocked 1
+before cycle: 9 running 1
+the scheduling algorithm used was highest penalty ratio next
+
+Process: 0
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 9
+	Turnaround time: 9
+	I/O time: 4
+	Waiting time: 0
+
+Summary Data:
+	Finishing time: 9
+	CPU Utilization: 0.555556
+	I/O Utilization: 0.444444
+	Throughput: 11.1111 processes per hundred cycles
+	Average turnaround time: 9
+	Average waiting time: 0
+
+======================================================

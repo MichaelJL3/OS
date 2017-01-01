@@ -1,0 +1,15 @@
+Symbol Table
+X21=3
+X31=4
+
+Memory Map
++0
+0: E 1003	error: module pointer exceeding module size terminating chain
+1: I 1077
+2: E 1003
++3
+0: A 2456
++4
+0: R 3004
+
+warning X31 is defined but not used

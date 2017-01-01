@@ -1,0 +1,13 @@
+The machine size is 20.
+The page size is 10.
+The process size is 10.
+The job mix number is 2.
+The number of references per process is 10.
+The replacement algorithm is fifo.
+
+process 1 had 4 faults and 5.00 average residency.
+process 2 had 4 faults and 5.00 average residency.
+process 3 had 4 faults and 6.00 average residency.
+process 4 had 4 faults and 5.33 average residency.
+
+The total number of faults is 16 and the overall average residency is 5.29.

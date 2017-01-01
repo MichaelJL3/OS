@@ -1,0 +1,13 @@
+Symbol Table
+X21=3 error: multiple definitions of X21 first one used
+
+Memory Map
++0
+0: E 1003
+1: E 1003
+2: I 1000	error: E not used has been converted to I
++3
+0: A 2456
++4
+0: I 3456
+

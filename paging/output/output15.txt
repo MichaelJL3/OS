@@ -1,0 +1,13 @@
+The machine size is 10.
+The page size is 5.
+The process size is 30.
+The job mix number is 4.
+The number of references per process is 3.
+The replacement algorithm is random.
+
+process 1 had 2 faults and 6.00 average residency.
+process 2 had 2 faults and 1.50 average residency.
+process 3 had 2 faults and 1.50 average residency.
+process 4 had 2 faults. With no evictions, the average residence is undefined.
+
+The total number of faults is 8 and the overall average residency is 3.00.

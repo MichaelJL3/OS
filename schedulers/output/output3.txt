@@ -1,0 +1,216 @@
+The original input was: 3 (0,1,5,1)(0,1,5,1)(3,1,5,1)
+The (sorted) input is: 3 (0,1,5,1)(0,1,5,1)(3,1,5,1)
+
+This detailed printout gives the state and remaining burst for each process
+
+before cycle: 0 unstarted 0	 unstarted 0	 unstarted 0
+before cycle: 1 running 1	 ready 0 	 unstarted 0
+before cycle: 2 blocked 1	 running 1	 unstarted 0
+before cycle: 3 running 1	 blocked 1	 unstarted 0
+before cycle: 4 blocked 1	 running 1	 ready 0 
+before cycle: 5 ready 0 	 blocked 1	 running 1
+before cycle: 6 running 1	 ready 0 	 blocked 1
+before cycle: 7 blocked 1	 running 1	 ready 0 
+before cycle: 8 ready 0 	 blocked 1	 running 1
+before cycle: 9 running 1	 ready 0 	 blocked 1
+before cycle: 10 blocked 1	 running 1	 ready 0 
+before cycle: 11 ready 0 	 blocked 1	 running 1
+before cycle: 12 running 1	 ready 0 	 blocked 1
+before cycle: 13 terminated 0 	 running 1	 ready 0 
+before cycle: 14 terminated 0 	 terminated 0 	 running 1
+before cycle: 15 terminated 0 	 terminated 0 	 blocked 1
+before cycle: 16 terminated 0 	 terminated 0 	 running 1
+the scheduling algorithm used was first come first serve
+
+Process: 0
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 12
+	Turnaround time: 12
+	I/O time: 4
+	Waiting time: 3
+
+Process: 1
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 13
+	Turnaround time: 13
+	I/O time: 4
+	Waiting time: 4
+
+Process: 2
+	(A,B,C,IO) = (3,1,5,1)
+	Finishing time: 16
+	Turnaround time: 13
+	I/O time: 4
+	Waiting time: 4
+
+Summary Data:
+	Finishing time: 16
+	CPU Utilization: 0.9375
+	I/O Utilization: 0.75
+	Throughput: 18.75 processes per hundred cycles
+	Average turnaround time: 12.6667
+	Average waiting time: 3.66667
+
+======================================================
+The (sorted) input is: 3 (0,1,5,1)(0,1,5,1)(3,1,5,1)
+
+This detailed printout gives the state and remaining burst for each process
+
+before cycle: 0 unstarted 0	 unstarted 0	 unstarted 0
+before cycle: 1 running 1	 ready 0 	 unstarted 0
+before cycle: 2 blocked 1	 running 1	 unstarted 0
+before cycle: 3 running 1	 blocked 1	 unstarted 0
+before cycle: 4 blocked 1	 running 1	 ready 0 
+before cycle: 5 ready 0 	 blocked 1	 running 1
+before cycle: 6 running 1	 ready 0 	 blocked 1
+before cycle: 7 blocked 1	 running 1	 ready 0 
+before cycle: 8 ready 0 	 blocked 1	 running 1
+before cycle: 9 running 1	 ready 0 	 blocked 1
+before cycle: 10 blocked 1	 running 1	 ready 0 
+before cycle: 11 ready 0 	 blocked 1	 running 1
+before cycle: 12 running 1	 ready 0 	 blocked 1
+before cycle: 13 terminated 0 	 running 1	 ready 0 
+before cycle: 14 terminated 0 	 terminated 0 	 running 1
+before cycle: 15 terminated 0 	 terminated 0 	 blocked 1
+before cycle: 16 terminated 0 	 terminated 0 	 running 1
+the scheduling algorithm used was round robbin
+
+Process: 0
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 12
+	Turnaround time: 12
+	I/O time: 4
+	Waiting time: 3
+
+Process: 1
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 13
+	Turnaround time: 13
+	I/O time: 4
+	Waiting time: 4
+
+Process: 2
+	(A,B,C,IO) = (3,1,5,1)
+	Finishing time: 16
+	Turnaround time: 13
+	I/O time: 4
+	Waiting time: 4
+
+Summary Data:
+	Finishing time: 16
+	CPU Utilization: 0.9375
+	I/O Utilization: 0.75
+	Throughput: 18.75 processes per hundred cycles
+	Average turnaround time: 12.6667
+	Average waiting time: 3.66667
+
+======================================================
+The (sorted) input is: 3 (0,1,5,1)(0,1,5,1)(3,1,5,1)
+
+This detailed printout gives the state and remaining burst for each process
+
+before cycle: 0 unstarted 0	 unstarted 0	 unstarted 0
+before cycle: 1 running 1	 ready 0 	 unstarted 0
+before cycle: 2 blocked 1	 running 1	 unstarted 0
+before cycle: 3 running 1	 blocked 1	 unstarted 0
+before cycle: 4 blocked 1	 running 1	 ready 0 
+before cycle: 5 running 1	 blocked 1	 ready 0 
+before cycle: 6 blocked 1	 running 1	 ready 0 
+before cycle: 7 running 1	 blocked 1	 ready 0 
+before cycle: 8 blocked 1	 running 1	 ready 0 
+before cycle: 9 running 1	 blocked 1	 ready 0 
+before cycle: 10 terminated 0 	 running 1	 ready 0 
+before cycle: 11 terminated 0 	 terminated 0 	 running 1
+before cycle: 12 terminated 0 	 terminated 0 	 blocked 1
+before cycle: 13 terminated 0 	 terminated 0 	 running 1
+before cycle: 14 terminated 0 	 terminated 0 	 blocked 1
+before cycle: 15 terminated 0 	 terminated 0 	 running 1
+before cycle: 16 terminated 0 	 terminated 0 	 blocked 1
+before cycle: 17 terminated 0 	 terminated 0 	 running 1
+before cycle: 18 terminated 0 	 terminated 0 	 blocked 1
+before cycle: 19 terminated 0 	 terminated 0 	 running 1
+the scheduling algorithm used was last come first serve
+
+Process: 0
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 9
+	Turnaround time: 9
+	I/O time: 4
+	Waiting time: 0
+
+Process: 1
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 10
+	Turnaround time: 10
+	I/O time: 4
+	Waiting time: 1
+
+Process: 2
+	(A,B,C,IO) = (3,1,5,1)
+	Finishing time: 19
+	Turnaround time: 16
+	I/O time: 4
+	Waiting time: 7
+
+Summary Data:
+	Finishing time: 19
+	CPU Utilization: 0.789474
+	I/O Utilization: 0.631579
+	Throughput: 15.7895 processes per hundred cycles
+	Average turnaround time: 11.6667
+	Average waiting time: 2.66667
+
+======================================================
+The (sorted) input is: 3 (0,1,5,1)(0,1,5,1)(3,1,5,1)
+
+This detailed printout gives the state and remaining burst for each process
+
+before cycle: 0 unstarted 0	 unstarted 0	 unstarted 0
+before cycle: 1 running 1	 ready 0 	 unstarted 0
+before cycle: 2 blocked 1	 running 1	 unstarted 0
+before cycle: 3 running 1	 blocked 1	 unstarted 0
+before cycle: 4 blocked 1	 running 1	 ready 0 
+before cycle: 5 running 1	 blocked 1	 ready 0 
+before cycle: 6 blocked 1	 running 1	 ready 0 
+before cycle: 7 ready 0 	 blocked 1	 running 1
+before cycle: 8 running 1	 ready 0 	 blocked 1
+before cycle: 9 blocked 1	 ready 0 	 running 1
+before cycle: 10 ready 0 	 running 1	 blocked 1
+before cycle: 11 ready 0 	 blocked 1	 running 1
+before cycle: 12 running 1	 ready 0 	 blocked 1
+before cycle: 13 terminated 0 	 running 1	 ready 0 
+before cycle: 14 terminated 0 	 terminated 0 	 running 1
+before cycle: 15 terminated 0 	 terminated 0 	 blocked 1
+before cycle: 16 terminated 0 	 terminated 0 	 running 1
+the scheduling algorithm used was highest penalty ratio next
+
+Process: 0
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 12
+	Turnaround time: 12
+	I/O time: 4
+	Waiting time: 3
+
+Process: 1
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 13
+	Turnaround time: 13
+	I/O time: 4
+	Waiting time: 4
+
+Process: 2
+	(A,B,C,IO) = (3,1,5,1)
+	Finishing time: 16
+	Turnaround time: 13
+	I/O time: 4
+	Waiting time: 4
+
+Summary Data:
+	Finishing time: 16
+	CPU Utilization: 0.9375
+	I/O Utilization: 0.75
+	Throughput: 18.75 processes per hundred cycles
+	Average turnaround time: 12.6667
+	Average waiting time: 3.66667
+
+======================================================

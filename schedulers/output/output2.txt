@@ -1,0 +1,161 @@
+The original input was: 2 (0,1,5,1)(0,1,5,1)
+The (sorted) input is: 2 (0,1,5,1)(0,1,5,1)
+
+This detailed printout gives the state and remaining burst for each process
+
+before cycle: 0 unstarted 0	 unstarted 0
+before cycle: 1 running 1	 ready 0 
+before cycle: 2 blocked 1	 running 1
+before cycle: 3 running 1	 blocked 1
+before cycle: 4 blocked 1	 running 1
+before cycle: 5 running 1	 blocked 1
+before cycle: 6 blocked 1	 running 1
+before cycle: 7 running 1	 blocked 1
+before cycle: 8 blocked 1	 running 1
+before cycle: 9 running 1	 blocked 1
+before cycle: 10 terminated 0 	 running 1
+the scheduling algorithm used was first come first serve
+
+Process: 0
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 9
+	Turnaround time: 9
+	I/O time: 4
+	Waiting time: 0
+
+Process: 1
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 10
+	Turnaround time: 10
+	I/O time: 4
+	Waiting time: 1
+
+Summary Data:
+	Finishing time: 10
+	CPU Utilization: 1
+	I/O Utilization: 0.8
+	Throughput: 20 processes per hundred cycles
+	Average turnaround time: 9.5
+	Average waiting time: 0.5
+
+======================================================
+The (sorted) input is: 2 (0,1,5,1)(0,1,5,1)
+
+This detailed printout gives the state and remaining burst for each process
+
+before cycle: 0 unstarted 0	 unstarted 0
+before cycle: 1 running 1	 ready 0 
+before cycle: 2 blocked 1	 running 1
+before cycle: 3 running 1	 blocked 1
+before cycle: 4 blocked 1	 running 1
+before cycle: 5 running 1	 blocked 1
+before cycle: 6 blocked 1	 running 1
+before cycle: 7 running 1	 blocked 1
+before cycle: 8 blocked 1	 running 1
+before cycle: 9 running 1	 blocked 1
+before cycle: 10 terminated 0 	 running 1
+the scheduling algorithm used was round robbin
+
+Process: 0
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 9
+	Turnaround time: 9
+	I/O time: 4
+	Waiting time: 0
+
+Process: 1
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 10
+	Turnaround time: 10
+	I/O time: 4
+	Waiting time: 1
+
+Summary Data:
+	Finishing time: 10
+	CPU Utilization: 1
+	I/O Utilization: 0.8
+	Throughput: 20 processes per hundred cycles
+	Average turnaround time: 9.5
+	Average waiting time: 0.5
+
+======================================================
+The (sorted) input is: 2 (0,1,5,1)(0,1,5,1)
+
+This detailed printout gives the state and remaining burst for each process
+
+before cycle: 0 unstarted 0	 unstarted 0
+before cycle: 1 running 1	 ready 0 
+before cycle: 2 blocked 1	 running 1
+before cycle: 3 running 1	 blocked 1
+before cycle: 4 blocked 1	 running 1
+before cycle: 5 running 1	 blocked 1
+before cycle: 6 blocked 1	 running 1
+before cycle: 7 running 1	 blocked 1
+before cycle: 8 blocked 1	 running 1
+before cycle: 9 running 1	 blocked 1
+before cycle: 10 terminated 0 	 running 1
+the scheduling algorithm used was last come first serve
+
+Process: 0
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 9
+	Turnaround time: 9
+	I/O time: 4
+	Waiting time: 0
+
+Process: 1
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 10
+	Turnaround time: 10
+	I/O time: 4
+	Waiting time: 1
+
+Summary Data:
+	Finishing time: 10
+	CPU Utilization: 1
+	I/O Utilization: 0.8
+	Throughput: 20 processes per hundred cycles
+	Average turnaround time: 9.5
+	Average waiting time: 0.5
+
+======================================================
+The (sorted) input is: 2 (0,1,5,1)(0,1,5,1)
+
+This detailed printout gives the state and remaining burst for each process
+
+before cycle: 0 unstarted 0	 unstarted 0
+before cycle: 1 running 1	 ready 0 
+before cycle: 2 blocked 1	 running 1
+before cycle: 3 running 1	 blocked 1
+before cycle: 4 blocked 1	 running 1
+before cycle: 5 running 1	 blocked 1
+before cycle: 6 blocked 1	 running 1
+before cycle: 7 running 1	 blocked 1
+before cycle: 8 blocked 1	 running 1
+before cycle: 9 running 1	 blocked 1
+before cycle: 10 terminated 0 	 running 1
+the scheduling algorithm used was highest penalty ratio next
+
+Process: 0
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 9
+	Turnaround time: 9
+	I/O time: 4
+	Waiting time: 0
+
+Process: 1
+	(A,B,C,IO) = (0,1,5,1)
+	Finishing time: 10
+	Turnaround time: 10
+	I/O time: 4
+	Waiting time: 1
+
+Summary Data:
+	Finishing time: 10
+	CPU Utilization: 1
+	I/O Utilization: 0.8
+	Throughput: 20 processes per hundred cycles
+	Average turnaround time: 9.5
+	Average waiting time: 0.5
+
+======================================================

@@ -1,0 +1,14 @@
+Symbol Table
+X31=4
+
+Memory Map
++0
+0: E 1000	error: use X21 not defined address converted to 0
+1: E 1000	error: use X21 not defined address converted to 0
+2: E 1000	error: use X21 not defined address converted to 0
++3
+0: A 2456
++4
+0: I 3456
+
+warning X31 is defined but not used
